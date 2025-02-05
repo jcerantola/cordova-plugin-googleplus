@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-googleplus"
-        version="8.5.2">
+        version="8.5.3">
 
   <name>Google SignIn</name>
 
@@ -30,7 +30,7 @@
   <!-- android -->
   <platform name="android">
 
-	<preference name="PLAY_SERVICES_VERSION" default="15.0.1"/>
+	<preference name="PLAY_SERVICES_VERSION" default="17.0.0"/>
     <framework src="com.google.android.gms:play-services-auth:$PLAY_SERVICES_VERSION" />
     <framework src="com.google.android.gms:play-services-identity:$PLAY_SERVICES_VERSION" />
 
@@ -107,7 +107,7 @@
         <source url="https://cdn.cocoapods.org/"/>
       </config>
       <pods use-frameworks="true">
-        <pod name="GoogleSignIn" spec="~> 5.0.2"/>
+        <pod name="GoogleSignIn" spec="~> 6.2.4"/>
         <pod name="GoogleUtilities" spec="~> 7.2.2"/>
       </pods>
     </podspec>
